@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: bisque;
+}
+.box{
+    width: 100%;
+    text-align: center;
+    
+    font-family: "Amatic SC", cursive;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.h1{
+    text-align: center;
+    
+    color: rgb(156, 1, 1);
+    text-shadow: 4px 4px rgba(39, 3, 3, 0.575);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+.ref{
+    text-decoration: none;
+    margin: 30px;
+    color: #000;
+    transition: 0.3s;
+    font-size: 40px;
+    background-color: rgba(57, 187, 57, 0.774);
+    width: max-content;
+    border-radius: 12px;
+
+}
+.photos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.img{
+    width: 620px;
+    height: 500px;
+    margin-bottom: 40px;
+    background-position: center;
+}

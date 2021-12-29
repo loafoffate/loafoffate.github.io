@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>New Year</title>
+        <style>
+            body {
+                margin: 0;
+
+                background-color: black;
+            }
+            .back {
+                height: 100vh;
+
+                background-position: center;
+                background-size: initial;
+                background-image: url(back.jpg);
+            }
+
+            .box {
+                padding-top: 150px;
+                line-height: 150px;
+                padding-left: 400px;
+                box-sizing: border-box;
+                padding-right: 400px;
+                padding-bottom: 200px;
+
+                text-align: center;
+                font-family: "Amatic SC", cursive;
+                font-size: 100px;
+                color: white;
+                text-shadow: 6px 6px rgba(0, 0, 0, 0.575);
+            }
+
+            .basic {
+                background-color: bisque;
+                height: auto;
+            }
+            ::-webkit-scrollbar {
+                display: none;
+            }
+            .heading {
+                text-align: center;
+                font-family: "Amatic SC", cursive;
+                font-size: 70px;
+                color: rgb(156, 1, 1);
+                text-shadow: 4px 4px rgba(39, 3, 3, 0.575);
+                margin-bottom: 70px;
+                padding-top: 70px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            .parent {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-evenly;
+            }
+            .child {
+                border-radius: 20px;
+                box-shadow: 20px 20px rgba(109, 94, 76, 0.705);
+                width: 640px;
+                height: 426px;
+                margin-bottom: 40px;
+            }
+            .one {
+                background-image: url(chrtree.jpg);
+            }
+            .two {
+                background-image: url(ball.jpg);
+            }
+            .three {
+                background-image: url(town.jpg);
+            }
+            .four {
+                background-image: url(cookies.jpg);
+            }
+            .five {
+                background-image: url(dedmoroz.jpg);
+            }
+            .six {
+                background-image: url(toy.jpg);
+            }
+            .seven {
+                background-image: url(treestars.jpg);
+            }
+            .eight {
+                background-image: url(star.jpg);
+            }
+            .down {
+                text-shadow: none;
+                font-size: 35px;
+                margin-top: -50px;
+                padding-top: 0px;
+            }
+            .item {
+                height: 672px;
+                width: 400px;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 15px 15px rgba(109, 94, 76, 0.705), 0 0 17px 0 rgba(0, 0, 0, 0.068);
+                margin-bottom: 35px;
+            }
+            .item-img{
+                background-position: center;
+                background-size: cover;
+                border-radius: 10px;
+                height: 81%;
+            }
+            .item-title{
+                text-align: center;
+                font-family: "Amatic SC", cursive;
+                font-size: 28px;
+                color: rgb(156, 1, 1);
+                text-shadow: 1px 1px rgba(39, 3, 3, 0.575);
+                text-decoration: none;
+                border: none;
+            }
+            .film{
+                display: flex;
+                flex-flow: row wrap;
+                align-content: center;
+                text-decoration: none;
+                
+            }
+            .item-reit{
+                text-decoration: none;
+                border: none;
+                text-align: center;
+                font-family: "Amatic SC", cursive;
+                font-size: 28px;
+                font-weight: bolder;
+                color: rgb(83, 0, 0);
+                width: 40%;
+                height: 6%;
+                background-color: rgba(57, 187, 57, 0.774);
+                margin-left: 30%;
+                margin-top: 3px;
+            }
+            .a .item{
+                text-decoration: none;
+                border: none;
+            }
+            .a::after{
+                border: none;
+                text-decoration: none;
+            }
+            .item:hover{
+                margin-left: 10px;
+                box-shadow: none;
+                opacity: 0.7;
+            }
+            
+            </style>
+    </head>
+    <body>
+        <div class="back">
+            <div class="box">НОВОГОДНЕЕ НАСТРОЕНИЕ</div>
+        </div>
+        <div class="basic">
+            <div class="heading">Фоточки для настроения</div>
+            <div class="parent">
+                <div class="child one"></div>
+                <div class="child two"></div>
+                <div class="child three"></div>
+                <div class="child four"></div>
+                <div class="child five"></div>
+                <div class="child six"></div>
+                <div class="child seven"></div>
+                <div class="child eight"></div>
+            </div>
+
+            <div class="films">
+                <div class="heading">Фильмы</div>
+                <div class="heading down">
+                    Каждый фильм имеет приоритет от 1 до 10 по шкале Софиного
+                    ожидания его просмотра. При выборе фильма просьба
+                    ориентроваться на приоритет.
+                </div>
+                <div class="parent film">
+                <a href="chrtwo.html">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(chrtwo.jpeg)"
+                        ></div>
+                        <div class="item-title">Рождество на двоих</div>
+                        <div class="item-reit">10</div>
+                    </div>
+                </a>
+                <a href="survive.html">
+
+                    <div class="item">
+                        <div class="item-img" style="background-image: url(survive.jpg)"></div>
+                        <div class="item-title">Пережить Рождество</div>
+                        <div class="item-reit">6</div>
+                    </div>
+                </a>
+                <a href="chocolate.html">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(chocolate.jpg)"
+                        ></div>
+                        <div class="item-title">Рождество в шоколаде</div>
+                        <div class="item-reit">7</div>
+                    </div>
+                </a>
+                <a href="chronicles.html">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(chronicles.jpg)"
+                        ></div>
+                        <div class="item-title">Рождественские хроники</div>
+                        <div class="item-reit">8</div>
+                    </div>
+                </a>
+                <a href="presentchr.html">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(presentchr.jpeg)"
+                        ></div>
+                        <div class="item-title">Подарок на Рождество</div>
+                        <div class="item-reit">9</div>
+                    </div>
+                </a>
+                <a href="fredclaus.html">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(fredclaus.jpg)"
+                        ></div>
+                        <div class="item-title">Фред Клаус брат Санты</div>
+                        <div class="item-reit">9</div>
+                    </div>
+                </a>
+                <a href="kranks.html">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(kranks.jpg)"
+                        ></div>
+                        <div class="item-title">Рождество с неудачниками</div>
+                        <div class="item-reit">8</div>
+                    </div>
+                </a>
+                </div>
+                    <div class="heading">
+                       
+                        Мультики
+                        
+                    </div>
+                <div class="parent">
+                <a href="mickey.html">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(mickey.jfif)"
+                        ></div>
+                        <div class="item-title">
+                            Микки однажды под Рождество
+                        </div>
+                        <div class="item-reit">7</div>
+                    </div>
+                </a>
+                <a href="santaclaus.html">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(santaclaus.jpg)"
+                        ></div>
+                        <div class="item-title">
+                            Секретная служба Санта Клауса
+                        </div>
+                        <div class="item-reit">10</div>
+                    </div>
+                </a>
+                <a href="elliot.html">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(elliot.jfif)"
+                        ></div>
+                        <div class="item-title">Эллиот</div>
+                        <div class="item-reit">10</div>
+                    </div>
+                </a>
+                </div>
+                    <div class="heading">
+                        
+                        Новые
+                        
+                    </div>
+                <div class="parent">
+                <a href="wanted.html">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(wanted.jpg)"
+                        ></div>
+                        <div class="item-title">Разыскивается Санта</div>
+                        <div class="item-reit">9</div>
+                    </div>
+                </a>
+                <a href="tendays.html">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(tendays.jfif)"
+                        ></div>
+                        <div class="item-title">10 дней с Сантой (с 30.12)</div>
+                        <div class="item-reit">8</div>
+                    </div>
+                </a>
+                <a href="klifford.html">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(klifford.jfif)"
+                        ></div>
+                        <div class="item-title">
+                            Большой красный пёс Клиффорд
+                        </div>
+                        <div class="item-reit">8</div>
+                    </div>
+                </a>
+                </div>
+                    <div class="heading">
+                        
+                        Классика
+                       
+                    </div>
+                <div class="parent">
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(Grinch.jpg)"
+                        ></div>
+                        <div class="item-title">Гринч фильм с Джимом Керри</div>
+                        <div class="item-reit">10</div>
+                    </div>
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(grinch.jfif)"
+                        ></div>
+                        <div class="item-title">Гринч мультфильм</div>
+                        <div class="item-reit">100</div>
+                    </div>
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(homealone.jpg)"
+                        ></div>
+                        <div class="item-title">Один дома 1</div>
+                        <div class="item-reit">10</div>
+                    </div>
+                    <div class="item">
+                        <div
+                            class="item-img"
+                            style="background-image: url(homealone2.png)"
+                        ></div>
+                        <div class="item-title">Один дома 2</div>
+                        <div class="item-reit">9</div>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
